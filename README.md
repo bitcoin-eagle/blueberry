@@ -1,6 +1,8 @@
 # Blueberry
 Privacy Bitcoin Wallet Server
 
+The new and better electrum server that improves privacy and data consistency by order of magnitude
+
 # Goals
 1. MUST: query transaction history without revealing if address has already appeared on the blockchain or is unused
 2. BEST EFFORT: provide some kind of quantifiable anonymity set for indexing addresses on bitcoin blockchain transaction history
