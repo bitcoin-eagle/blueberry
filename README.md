@@ -7,7 +7,7 @@ The new and better electrum server that improves privacy and data consistency by
 1. MUST: query address' transaction history without revealing if address has already appeared on the blockchain or is unused
 1. BEST EFFORT: provide some kind of quantifiable anonymity set for indexing addresses on bitcoin blockchain transaction history
 1. fully replace electrum server protocol while preseving previous two points
-1. improve on electrum server by providing blockhash based snapshot of state of blockchain (to handle reorg edge cases)
+1. improve on electrum server by providing blockhash based consistent snapshot of state of blockchain (to handle reorg edge cases)
 1. primarily focused for light mobile wallets or block explorers
 1. implement paging from newest transaction first (provide consistent snapshot accross pages)
 
